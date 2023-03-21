@@ -1,0 +1,47 @@
+/*comentario*/
+/*vars*/
+header {
+  background-color: blueviolet;
+  color: orange;
+}
+header span {
+  color: black;
+}
+header nav {
+  display: flex;
+}
+header nav ul {
+  text-decoration: none;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li a {
+  color: red;
+}
+header nav ul li a:hover {
+  color: white;
+}
+
+.producto {
+  border: 1px solid #000;
+  background-color: aquamarine;
+  background-size: cover;
+  background-position: top center;
+}
+.producto .producto_titulo {
+  font-size: 30px;
+}
+.producto .producto_info {
+  font-size: 16px;
+  line-height: 1;
+}
+.producto .producto_link {
+  color: green;
+}
+
+@media (min-width: 768px) {
+  header {
+    background-color: orange;
+  }
+}/*# sourceMappingURL=main.css.map */
